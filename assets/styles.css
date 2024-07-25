@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    background-image: url(nasa-jlV2k_Fx0fc-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family: 'Merriweather';
+    text-align: center;
+}
+
+.calculadora {
+    position: absolute;
+    background-color: rgba(11, 11, 11, 0.934);
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.botao {
+    background-color: rgb(26, 26, 26);
+    color: rgb(255, 255, 255);
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    margin: .2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    transition: .2s;
+}
+
+.igual {
+    height: 8.51rem;
+}
+
+.zero {
+    width: 8.5rem;
+}
+
+.botao:hover{
+    background-color: rgb(9, 9, 9);
+}
+
+#resultado {
+    align-items: center;
+    width: 18rem;
+    background-color: rgba(255, 255, 255, 0.098);
+    height: 38px;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 15px;
+}
